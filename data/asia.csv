@@ -1,0 +1,97 @@
+fecha;activo;Resultado;Ratio;Temporalidad;Hora de entrada;Rango;AVG;detalle de la operacion;mejoras;Foto
+2/1/2025;NQ1!;No dio entrada;;5m;;54;71,8125;No da entrada porque no hay cambio de estructura. Tambien pude observar que el precio no forma rango durante Asia sino que esta en tendendia. Tal vez tendria que llevar un registro de esto tambien;;1
+3/1/2025;NQ1!;Perdida;1,85/1;1m;03:20;54;71,8125;Dio entrada con cambio de estructura en 1 minuto pero no llego a TP;Llevar registro de operativa para tener una estadistica de aciertos y perdidas en base a la cantidad de puntos que tiene el rango de Asia;2
+3/1/2025;EURUSD;Ganada;3/1;1m;00:23;0,00082;0,001252;Da entrada al romper rango y meterse, como rompe con una vela muy fuerte la entrada la da al pasar la media de 21.;Estudiar este caso en el trading plan para aumentar el beneficio.;3
+6/1/2025;NQ1!;No dio entrada;;5m;;41,5;65,75;No llega a meterse nuevamente en el rango, durante la sesion fue tendencial;;4
+6/1/2025;EURUSD;No dio entrada;;5m;;0,00171;0,001192;No llega a meterse nuevamente en el rango, durante la sesion fue tendencial;;5
+7/1/2025;NQ1!;Ganada;1,66/1;5m;02:05;69,75;72;Se forma un rango a la baja, el precio rompe con fuerza el piso y se gira. Da entrada con un cambio estructural de corto plazo, la primera vela que entra en el rango y que sumado esta por arriba de la EMA21. Para el TP mido con fibonacci la manipulacion y salgo en el -2;;6
+7/1/2025;EURUSD;No dio entrada;;5m;;0,00181;0,001322;No llega a meterse nuevamente en el rango, durante la sesion fue tendencial;;7
+8/1/2025;NQ1!;Ganada;1,66/1;1m;02:51;52,5;65,1;Se forma un rango, el precio rompe con fuerza el piso y se gira (5m). Da entrada con un cambio estructural de corto plazo en 1m, la primera vela que entra en el rango y que sumado esta por arriba de la EMA21. Para el TP mido con fibonacci la manipulacion y salgo en el -2. El SL lo pongo debajo del ultimo minimo que me hace el cambio de estructura.;En este caso el precio llega al techo del rango dando un movimiento de 51 puntos.;8
+8/1/2025;EURUSD;Ganada;2 /1;5m;01:20;0,00095;0,001312;Se forma rango, el precio tiene un pequeño rompimiento en el techo y amaga a meterse, no entro porque no esta por debajo de la EMA en 5m y tampoco hay un cambio estructural. Eso me salvo que se vaya a SL en esta operación porque volvio al alza. El precio va rapidamente al piso del rango danto TP. No se utiliza el fibonacci ya que el -2 queda pegado a la entrada. ;;9
+9/1/2025;NQ1!;Perdida;1,7 /1;5m;03:40;120,25;67,65;Se sigue entrada PO3, el precio se va a SL.;Analizar la cantidad de puntos, en esta operación da 32 puntos y luego se gira;10
+9/1/2025;EURUSD;Perdida;1,2/1;5m;01:45;0,00159;0,001316;El precio realiza un rango y rompe el piso, sube arriba de la media y da entrada. Rapidamente toca SL.;El precio no llego a la apertura del dia (true day open), si reviso el grafico tenia los minimos de NY del dia anterior, por lo que el precio toma liquidez de los minimos y se gira al alza.;11
+10/1/2025;NQ1!;Ganada;1,5/1;5m;00:55;120,25;67,65;Se entra por PO3, cabe destacar que el precio no hace rango en asia, sino que entra tendencialmente al alza marcando 120 puntos, luego hace un amague corto para ir a la baja.;;12
+10/1/2025;EURUSD;Ganada;2/1;5m;02:05;0,0011;0,001434;Entrada PO3, con la particularidad que el precio sigue de largo del rango de Asia y va a tomar los minimos de Londres del dia anterior. Hace el amague y entro una vez que el precio se vuelve a meter y termina por encima de la EMA21,;Esta operación la pude realizar ya estudie el caso del dia 9/1 en EURUSD en donde hizo lo mismo. Tengo que seguir estudiando las entradas para sumar mas porcentaje de acierto.;13
+14/1/2025;NQ1!;Perdida;1,85/1;5m;01:35;55;85,1;;Para estudiar y mejorar las entradas, esta no habia cambio de estructura en 5m pero si en 1m y se va derecho a SL.;14
+14/1/2025;EURUSD;Perdida;1,2/1;5m;02:45;0,00159;none;;Para estudiar y mejorar las entradas, esta no habia cambio de estructura en 5m pero si en 1m y se va derecho a SL.;15
+15/1/2025;NQ1!;No dio entrada;none;5m;;36,5;81,9;Rango muy pequeño para su operación;;16
+15/1/2025;NQ1!;Ganada;2 a 1;5m;02:35;0,00097;0,001926;Una operación muy dificil, hay un minimo cerca del cual toma liquidez y luego sigue bajando, en 5 m da la entrada correcta por la ema, si se cambia a 1m daba 2 entradas que fueron a SL. ;Viendo la entrada, al parecer la unica manera de no comer un amague era esperando que pase el true opening day, pero eso me dejaba una operación muy corta con un SL largo. Adjunto tambien grafico de 1m para su estudio.;17
+16/1/2025;NQ1!;No dio entrada;none;5m;;46,5;80,35;No da entrada en 5m ya que no hay un cambio de estructura, en 1m hubiera dado entrada por Wycoff despues de un amague con una vela con mucho volumen.;;18
+16/1/2025;EURUSD;Ganada;2,5 a 1;5m;01:15;0,00151;0,00191;Entro por PO3 sin la confirmacion del cambio de estructura en 5m pero si utilizando el criterio de la EMA;Estudiar los porcentajes de entrar o no con las confirmaciones de EMA y cambio de estructura.;19
+17/1/2025;NQ1!;No dio entrada;none;5m;;69;70,1;No da entrada, el precio apenas amaga y no llega al final del rango;En 5m se mete el precio y baja de la EMA, tengo que realizar el backtest para ver los RR si conviene entrar al minimo amague. En este caso conservadoramente da los 22,5 puntos para el fondeo pero no llega el precio al piso del rango;20
+17/1/2025;EURUSD;Ganada;1,7/1;5m;03:25;0,00176;0,00204;Entro en PO3 en 5m luego de una manipulacion.;El precio toca milimetricamente el TP y se gira. Luego de eso toma minimos de la secion de NY anterior y se da vuelta, empezar a analizar estas tomas despues de Asia;21
+20/1/2025;NQ1!;No dio entrada;none;5m;;36,75;48,75;No dio entrada;;22
+20/1/2025;EURUSD;No dio entrada;none;5m;;0,0028;0,001746;En 5 minutos hace varios amagues pero no entro porque no perfora el rango con intencion y no supera contundentemente la EMA.;;23
+21/1/2025;NQ1!;No dio entrada;;5m;;270;91,75;;;24
+21/1/2025;EURUSD;Ganada;;5m;05:35;0,00173;0,002468;Entrada PO3;Dio entrada fuera del horario operativo de Londres;25
+22/1/2025;NQ1!;Perdida;2,31/1;5m;05:10;65,25;97,5;Entrada PO3, con la particularidad que el precio se mete fuera del horario de Londres.;Estudiar los horarios de entrada.;26
+22/1/2025;EURUSD;Ganada;1 /1;5m;02:00;0,00173;0,002468;Entrada en PO3, como el precio avanzo rapido cuando se metio en rango me dejo un poco alta la entrada. Modifique el TP para poder tener un RR de 1 a 1 yendo a buscar unos puntos mas arriba del rango.;;27
+23/1/2025;NQ1!;Ganada;2,6/1;5m;00:25;41;96,4;Entrada PO3 sin observaciones;;28
+23/1/2025;EURUSD;Ganada;1,2/1;5m;02:50;0,00191;none;Entrada PO3 sin observaciones;;29
+24/1/2025;NQ1!;;;;;none;none;;;30
+24/1/2025;EURUSD;Perdida;1,9/1;5m;02:05;0,00424;0,003044;Entrada PO3 sin observaciones, el precio se mete en rango a la baja , se pone debao de la media movil y abro entrada;En este caso el precio no supera el True open day. Ni bien entro el precio se gira y va derecho al SL. Para revisar, cuando el precio se queda en la parte alta del rango sin bajar y luego va para arriba siguiendo la tendencia.;31
+17/2/2025;NQ1!;No dio entrada;;5m;;62,5;57,7;No da entrada, el precio entra en un rango muy corto en la parte superior, este tipo de comportamiento es el que me dice que no hay que entrar. En este caso lo esta confirmando.;;1
+17/2/2025;EURUSD;Perdida;2,5/1;5m;01:25;0,00171;0,002104;Tipo de entrada PO3.;El precio toca el True open Day y se da vuelta, en este caso de haber esperado no hubiera dado entrada;2
+18/2/2025;NQ1!;No dio entrada;;5m;;37,25;52,65;El precio rompe rango de Asia pero apenas con una mecha, espero una ruptura mas contundente. El precio se gira al alza y se escapa. En este caso gracias a esperar no salto el SL.;;3
+18/2/2025;EURUSD;Ganada;2 /1;5m;01:00;0,00204;0,002258;Tipo de entrada PO3.;;4
+19/2/2025;NQ1!;Perdida;1,8/1;5m;01:00;29,25;47,55;Tipo de entrada PO3.;Analizando la entrada no hay posibilidad de mejora, es de las que cae en perdida. Solo analizar la relacion de ganadas y perdidas con respecto al tamaño del rango.;5
+19/2/2025;EURUSD;Ganada;1,4/1;5m;02:20;0,00122;0,002224;Tipo de entrada PO3.;Para estudiar, en este caso la manipulacion queda mas arriba que la apertura de londres, se podria bajar el SL a la apertura ya que si el precio retrocede a esa zona invalida la hipotesis de la entrada.;6
+20/2/2025;NQ1!;Ganada;2/1;5m;02:25;72,5;50,9;Tipo de entrada PO3.;Al reducir el TP a un 2 a 1 en este caso fue positivo ya que se giro antes de tocar el rango superior de Asia.;7
+20/2/2025;EURUSD;No dio entrada;;5m;;0,00191;0,001638;;Al tener el High de NY del dia anterior tan cerca espero que perfore ese Maximo, lo hace solo con una mecha por lo cual prefiero esperar y no entrar. En este caso si entraba hubiera sido perdida.;8
+21/2/2025;NQ1!;Ganada;2 /1;5m;00:15;39;48,1;;Esta entrada es milimetrica con las reglas de no ir mas de 2 a 1 y de entrar arriba de la EMA o True Open Day.;9
+21/2/2025;EURUSD;No dio entrada;;;;0,00205;0,001786;;El precio no se sube a la media y gracias a ello no hubo perdida.;10
+24/2/2025;NQ1!;Ganada;2/1;5m;01:35;63,5;48,3;Entrada PO3,entro cuando el precio perfora la EMA y muestra un cambio de tendencia.;;11
+24/2/2025;EURUSD;No dio entrada;;;;0,0026;0,001964;;;12
+25/2/2025;NQ1!;No dio entrada;;5m;;56,5;52,15;El precio rompe y se mete, pero con movimientos muy fuertes y el contexto de fondo es muy bajista. Decido no estrar y en este caso fue lo correcto.;Al ser movimientos tan fuertes no hay un cambio de tendencia con sus correcciones, estos movimientos fuertes es preferible no entrar contra tendencia.;13
+25/2/2025;EURUSD;Ganada;2/1;5m;01:45;0,00165;0,001886;Entrada PO3, en este caso el precio fue a buscar el piso del rango.;Cuando rompe el piso de Asia da otra entrada PO3 y va a buscar el High de Londres.;14
+26/2/2025;NQ1!;Perdida;2/1;5m;01:45;67;59,7;El precio parece hacer un cambio de tendencia pero se da la vuelta ni bien entrar.;Analizar de la posibilidad de sumar que la EMA tiene que ingresar al rango.;15
+26/2/2025;EURUSD;Ganada;2/1;5m;02:00;0,00268;0,002178;En esta caso se da la entrada P03 pero Londres hace un minimo que me permite acortar el SL. Modifico la operación reduciendo la cantidad de puntos. Si bien fue un 2 a 1 en relacion el lotaje de entrada que delimita la ganancia es inferior.;;16
+27/2/2025;NQ1!;No dio entrada;;;;108;66,8;;;17
+27/2/2025;EURUSD;No dio entrada;;;;0,00244;0,002284;;;18
+28/2/2025;NQ1!;;;none;;152,25;89,45;;No da entrada por el horario, despues de la 4 am no se opera;19
+28/2/2025;EURUSD;No dio entrada;none;none;;0,00242;0,002358;;No da entrada por el horario, despues de la 4 am no se opera;20
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
