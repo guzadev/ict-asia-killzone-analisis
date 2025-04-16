@@ -8,6 +8,22 @@ Explorar si la condición *"Rango < Promedio 5 días"* es un **filtro válido** 
 
 ---
 
+## 🧪 Enfoque de backtesting
+
+Este proyecto se enmarca como un **backtesting personal y manual**, realizado originalmente mediante observación directa en **TradingView** y registro de datos en **Excel**.
+
+> Para marcar los rangos de la sesión asiática y calcular su amplitud, se utilizó el indicador gratuito:  
+> 📌 **ICT Killzones & Pivots [TFO]** creado por [`tradeforopp`](https://www.tradingview.com/u/tradeforopp/), disponible en la librería pública de TradingView.
+
+No se trata de un sistema automatizado ni predictivo, sino de un análisis exploratorio orientado a validar hipótesis sobre condiciones históricas del mercado. El objetivo es identificar **patrones estadísticos repetibles** que puedan servir como filtro para aumentar la calidad de las decisiones operativas dentro de una estrategia basada en la estructura de mercado (Smart Money / ICT).
+
+En este caso particular, se explora:
+
+- ¿Tiene sentido filtrar días según la amplitud del rango asiático?
+- ¿Aumenta la probabilidad de éxito si el rango es menor al promedio de los últimos 5 días?
+
+---
+
 ## 📌 Contenido del proyecto
 
 - 🔄 Limpieza de datos y estandarización (`none`, nulos, strings inconsistentes)
